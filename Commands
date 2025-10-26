@@ -1,0 +1,233 @@
+🧭 1. Basic Navigation Commands
+
+pwd — Print working directory
+
+ls — List directory contents
+
+cd — Change directory
+
+cd .. — Go up one directory
+
+cd ~ — Go to home directory
+
+ls -l — Long listing format
+
+ls -a — Show hidden files
+
+tree — Display directory structure
+
+find — Search for files
+
+locate — Quickly locate files
+
+📂 2. File and Directory Management
+
+mkdir — Create a directory
+
+rmdir — Remove empty directory
+
+rm -r — Remove directory recursively
+
+cp — Copy files or directories
+
+mv — Move or rename files
+
+touch — Create an empty file
+
+cat — View file contents
+
+less — View large files one page at a time
+
+head — Show first lines of a file
+
+tail — Show last lines of a file
+
+🛠️ 3. File Operations & Permissions
+
+chmod — Change file permissions
+
+chown — Change file owner
+
+chgrp — Change group ownership
+
+stat — Show file details
+
+file — Identify file type
+
+ln — Create hard link
+
+ln -s — Create symbolic (soft) link
+
+diff — Compare files
+
+cmp — Compare binary files
+
+wc — Count words, lines, and characters
+
+🔍 4. Searching & Filtering
+
+grep — Search text in files
+
+egrep — Extended grep (regex support)
+
+fgrep — Fixed string grep
+
+find . -name "*.txt" — Find all .txt files
+
+sort — Sort file lines
+
+uniq — Filter duplicate lines
+
+cut — Cut specific columns from text
+
+awk — Pattern scanning and processing
+
+sed — Stream editor for text replacement
+
+xargs — Build and execute command lines
+
+⚙️ 5. System Information
+
+uname -a — Show system info
+
+hostname — Display hostname
+
+uptime — Show system uptime
+
+whoami — Display current user
+
+date — Show current date/time
+
+cal — Display calendar
+
+df -h — Show disk usage
+
+du -sh — Show folder size
+
+top — Display running processes
+
+htop — Interactive process viewer
+
+🧮 6. Process Management
+
+ps — Show running processes
+
+ps aux — Detailed process list
+
+kill — Kill process by PID
+
+killall — Kill all processes by name
+
+bg — Resume a job in background
+
+fg — Bring job to foreground
+
+jobs — Show active jobs
+
+nice — Set process priority
+
+renice — Change priority of running process
+
+pgrep — Find process by name
+
+🌐 7. Network Commands
+
+ping — Test network connection
+
+ifconfig — Show network interfaces
+
+ip a — Modern alternative to ifconfig
+
+netstat -tuln — Show open ports
+
+ss -tuln — Modern socket statistics
+
+curl — Fetch data from URL
+
+wget — Download files from web
+
+scp — Securely copy files between systems
+
+ssh — Secure shell login
+
+traceroute — Show route packets take
+
+🧑‍💻 8. User Management
+
+adduser — Create new user
+
+userdel — Delete user
+
+passwd — Change password
+
+su — Switch user
+
+sudo — Run command as superuser
+
+who — Show logged-in users
+
+last — Show login history
+
+id — Show user ID and groups
+
+groups — List user’s groups
+
+finger — Display user info
+
+📦 9. Package Management
+
+(Varies by distro)
+81. apt update — Refresh package list (Debian/Ubuntu)
+82. apt upgrade — Upgrade installed packages
+83. apt install — Install new package
+84. apt remove — Remove package
+85. apt search — Search for package
+86. yum install — Install package (RHEL/CentOS)
+87. dnf update — Fedora package update
+88. snap install — Install snap package
+89. flatpak install — Install flatpak app
+90. brew install — Install package (Homebrew)
+
+🧾 10. Compression & Archiving
+
+tar -cvf — Create tar archive
+
+tar -xvf — Extract tar archive
+
+gzip — Compress file
+
+gunzip — Decompress gzip
+
+zip — Create zip file
+
+unzip — Extract zip file
+
+bzip2 — Compress using bzip2
+
+xz — Compress using xz
+
+7z — 7-zip archiver
+
+rsync — Sync files and directories
+
+🔁 11. Miscellaneous
+
+history — Show command history
+
+alias — Create command shortcuts
+
+unalias — Remove alias
+
+clear — Clear terminal screen
+
+echo — Print message to screen
+
+env — Show environment variables
+
+export — Set environment variable
+
+time — Measure command execution time
+
+sleep — Pause for seconds
+
+man — Display manual page
